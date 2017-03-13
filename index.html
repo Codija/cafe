@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Beautiful cafe house">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <a href="#" class="nav-a">Home</a>
+        <a href="#about" class="nav-a">About</a>
+        <a href="#menu" class="nav-a">Menu</a>
+        <a href="#contact" class="nav-a">Contact</a>
+    </div>
+
+    <header class="heading" id="home">
+        <p class="h-left">Open from 8am to 8pm</p>
+        <h1 class="logo">Coffee house</h1>
+        <p class="h-right">Preka, 16</p>
+    </header>
+
+    <div class="wrapper">
+
+        <section class="about" id="about">
+            <h5 class="sections">ABOUT THE CAFE</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <div class="sec-sec">
+                <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+                <p>Owner: David Pavlovic</p>
+            </div>
+            <img src="img/cafe.jpg" alt="cafe" class="imgs">
+            <p>Opening hours: everyday from 6am to 5pm.</p>
+            <p>Address: Preka 16, Zemun</p>
+        </section>
+
+        <section class="menu" id="menu">
+            <h5 class="sections">Menu</h5>
+            <div class="sub-menu">
+                <ul class="items">
+                    <li>Latte<span class="items-sp">&#36;8</span></li>
+                    <li>Cappuccino<span class="items-sp">&#36;7</span></li>
+                    <li>Cortado<span class="items-sp">&#36;6</span></li>
+                    <li>Cold brew<span class="items-sp">&#36;5</span></li>
+                    <li>Strong drip<span class="items-sp">&#36;4</span></li>
+                    <li>Americano<span class="items-sp">&#36;3</span></li>
+                </ul>
+            </div>
+            <img src="img/img-menu.jpg" alt="coffee" class="imgs">
+        </section>
+
+        <section class="contact" id="contact">
+            <h5 class="sections">Contact</h5>
+            <p>Find us at some address at some place.</p>
+            <div id="map"></div>
+            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Reserve a table or just send us a message:</p>
+            <form action="action.php" target="_blank">
+                <input class="form-inp" type="text" name="Name" placeholder="Name" required="">
+                <input class="form-inp" type="text" name="How many people" placeholder="People" required="">
+                <input class="form-inp" type="datetime-local" placeholder="Date and time" value="2017-11-01T23:00" name="date" required="">
+                <input class="form-inp" type="text" placeholder="Message \ Special requirements" name="Message" required="">
+                <button class="btn" type="submit">Send message</button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+    <p> Coded with love</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
